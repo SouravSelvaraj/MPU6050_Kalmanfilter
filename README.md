@@ -30,7 +30,6 @@ Start by cloning the repository to your local machine:
 git clone https://github.com/SouravSelvaraj/MPU6050_Kalmanfilter.git
 cd MPU6050_Kalmanfilter.git
 ```
-
 ### 2. Install Dependencies
 Install the necessary Python packages by running:
 ```bash
@@ -40,7 +39,7 @@ pip install smbus2 numpy
 Make sure the MPU6050 is properly connected and powered. The sensor is configured via I2C using the smbus2 library. Ensure that the I2C address of the MPU6050 is set to the default 0x68.
 
 ### 4. Running the Kalman Filter
-Run the script to start reading the MPU6050 sensor data and estimating the position (X, Y) and yaw (rotation around the Z-axis) in real-time:
+Run the script to start reading the MPU6050 sensor data and estimating the position (X, Y) and yaw in real-time:
 ```bash
 python MPU6050.py
 ```
