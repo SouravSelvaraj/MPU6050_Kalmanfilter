@@ -28,7 +28,7 @@ Ensure that the MPU6050 I2C address is set to 0x68 (default).
 Start by cloning the repository to your local machine:
 ```bash
 git clone https://github.com/SouravSelvaraj/MPU6050_Kalmanfilter.git
-cd MPU6050_Kalmanfilter.git
+cd MPU6050_Kalmanfilter
 ```
 ### 2. Install Dependencies
 Install the necessary Python packages by running:
