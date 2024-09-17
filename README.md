@@ -14,7 +14,7 @@ This project implements a Kalman filter to estimate 2D position (X, Y) and yaw (
 3. **Python 3.x** installed.
 4. Install necessary Python libraries.
 
-##Hardware Setup
+## Hardware Setup
 Connect the MPU6050 to the Jetson Orin using the I2C interface:
  - VCC: 3.3V
  - GND: Ground
